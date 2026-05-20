@@ -1,0 +1,13 @@
+name = "VanillaQT"
+author = "Mathias Sven"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "99be791bf5b0052c8e659ba604de38c285f19117e0179fd7270095e5eacbcc6a"
+
+[versions]
+fabric = "0.19.2"
+minecraft = "26.1.2"

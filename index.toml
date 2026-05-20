@@ -1,0 +1,110 @@
+hash-format = "sha256"
+
+[[files]]
+file = "LICENSE"
+hash = "0c945f2cacc432581b84c097bd5711d20d6843340bb53a78f4da3f5876f9ef25"
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "97280c6f029ca84101dc38eb6bafbb7e615e3e0780bc766e0848b2eb0b577202"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "2d3b1944bc7916b8e57460d7eb342c73566e15393ddb6483c71f2336bab6200c"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "a7549d639da1b91e6a4c921c2959436a78d58118f983fb89fd7ba99feebc4837"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "05608f9174ebde171474deee51bc28ccf0a29d7594a6c0bdc40f06d2c7e32b50"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "6a291742cc41d7a82dd51ee4a88bc6a9d3ee6e81347b6940c76a3aea14a5824d"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "d234c52ed8eb2ad440ee8b1c3b24108d920b5ae63f252d4ed60e242ce7468dfb"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "adbe039e36d71ac5e8986288240d9a7e13720a108a70ffb0bb989d7a9a7ca30b"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
+metafile = true
+
+[[files]]
+file = "mods/first-person-model.pw.toml"
+hash = "46061206862d37d7c951508d8593b9a9743b1b95555359e368a55ef70fac9749"
+metafile = true
+
+[[files]]
+file = "mods/geophilic.pw.toml"
+hash = "543d2dac579c8de2e0035ffc0f33eff08c9b4267c981c397ecf14881a810a275"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "51fa2c64e9cf2d5558a2f1e575960a0a9f9f27f73486d0d679c2bc695eb11026"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "42583eed7ccb599f10285e721c25bf3c8858ef7e0eb8e22aa8bf64a08d98a280"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "3db1b61528d0fdd908f1fe57685bbc49cdbe496bfe0e349a0280334444193c73"
+metafile = true
+
+[[files]]
+file = "mods/noisiumforked.pw.toml"
+hash = "2c08bbdf7dc74bb0c6775311ecca268dae129e4573a2102a651da48fa4fe311d"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "0f1192a7e40192261310314d9fc2d584c701245dd29698ea1a674b3b676e9abd"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "d20369e5848ca31ecbb49bae22e953439173bd4617ca239b23335366b2a6a0e9"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "b06a45aed1a138c178d3aca3ec47f5af2d56d5c7ad03403b3530826bd95c49d3"
+metafile = true
+
+[[files]]
+file = "mods/quickleafdecay.pw.toml"
+hash = "740189c3010ec7a924a3f8f91d3bb6649eae654dbc501d0542a44b29f8ca4929"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "e9112a2da03f65451c8c949331d71b92546bbd75ff78eac554d27f6c41e1ba29"
+metafile = true
