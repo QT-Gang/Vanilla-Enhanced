@@ -5,6 +5,94 @@ file = "LICENSE"
 hash = "0c945f2cacc432581b84c097bd5711d20d6843340bb53a78f4da3f5876f9ef25"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "d97ed715e6a8394fab0bea2989a4c8adefc9cb904c78ae7764f5f34b479135c8"
+
+[[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "95a88ba740e591066dc420408a72b9048e2b619650019f8a69dcc895fd3d3dc3"
+
+[[files]]
+file = "config/NoChatReports/NCR-Common.json"
+hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
+
+[[files]]
+file = "config/NoChatReports/NCR-ServerPreferences.json"
+hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
+
+[[files]]
+file = "config/appleskin.json5"
+hash = "65edc28ca2bf6bd3e3684ae545fb74bcc0ec935a40d6ac60cb68c00c152e34fb"
+
+[[files]]
+file = "config/c2me.toml"
+hash = "af6cf15ccfd3658643b766fc14f8efc59f97c3a68a26505a5ac1d59e4ce3e384"
+
+[[files]]
+file = "config/creativecore-client.json"
+hash = "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac"
+
+[[files]]
+file = "config/defaultoptions-common.toml"
+hash = "81d7a59e19b61776973ce2729d4d09d77c1005b262f973f96354f4f36254a630"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "6af4ce8f2d6d6919d75a6e74ae15aca5b90b239525cca7d817d1a960728446fb"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "ecc88d36ba45cb47201f0390fc17b2b604b5d5b79a4f366f06ee73a71c323d56"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "0bad177a5bd1cf87a51a372d9a62a8058e38a238d1feda7fa778e87f7053d3ec"
+
+[[files]]
+file = "config/firstperson.json"
+hash = "6d9d8a3708ccf453fb710f4e10591cedd4d1767acde97c7da7bbc2cd2c4d4101"
+
+[[files]]
+file = "config/iris-excluded.json"
+hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
+
+[[files]]
+file = "config/iris.properties"
+hash = "c0047fdc6419bf3d1d4f5cabc2c05e6858b6e0207fc717ba1af39dc764b682d4"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "16d20c40cc6c114faff5493b561873fe160a65047720bc19fb3a3dd64aa67f3b"
+
+[[files]]
+file = "config/notenoughanimations.json"
+hash = "507a541bc7c088c0361fd871dcb9f70d31cea511c7366af8e0f7277886832968"
+
+[[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json5"
+hash = "5083b68a0d0501e16c5fe99f2ca87d5c7ef880c36a647e4db6dfd31a82ac53d4"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "34fc717398de751ce39263c5c9232d97ca45c4959cf83bc069d78c2ed137d401"
+
+[[files]]
+file = "config/transition.json"
+hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
+
+[[files]]
+file = "config/trender.json"
+hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "97280c6f029ca84101dc38eb6bafbb7e615e3e0780bc766e0848b2eb0b577202"
 metafile = true
@@ -31,7 +119,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "6a291742cc41d7a82dd51ee4a88bc6a9d3ee6e81347b6940c76a3aea14a5824d"
+hash = "9a3def8e5f210c694fd1af62513eb1289160a0f02840ad2a84495f8ab9636c5b"
 metafile = true
 
 [[files]]
@@ -105,6 +193,20 @@ hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
 metafile = true
 
 [[files]]
+file = "mods/treevite.pw.toml"
+hash = "a83eeeb4f25a33f5f16eda4969cb8552696d950b45182075720f574604a0a8d5"
+metafile = true
+
+[[files]]
+file = "mods/viafabric.pw.toml"
+hash = "0e598c8192680f5fe0381ebebc16c1ea70d9a63aca795c06b1a036b90b983dd5"
+metafile = true
+
+[[files]]
 file = "shaderpacks/photon-shader.pw.toml"
 hash = "e9112a2da03f65451c8c949331d71b92546bbd75ff78eac554d27f6c41e1ba29"
 metafile = true
+
+[[files]]
+file = "shaderpacks/photon_v1.3b.zip.txt"
+hash = "8a7c004fce3316db061938a5a0a7969aab2d40a10fd690bf800de65191f52cc4"
