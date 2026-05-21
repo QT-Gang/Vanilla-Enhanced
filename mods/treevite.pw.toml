@@ -1,0 +1,13 @@
+name = "Treevite"
+filename = "tree-invite-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/BlgzBjEa/versions/eLDP1mCJ/tree-invite-0.1.0.jar"
+hash-format = "sha512"
+hash = "9ad3a04dadfb3defbfcf5339f37cfd2c092ed925074ab35433978306e2eb879007f4b8884868e04cd035b3bb0f54e47ea06c13ae95a0af119e3faf67feea5776"
+
+[update]
+[update.modrinth]
+mod-id = "BlgzBjEa"
+version = "eLDP1mCJ"
