@@ -203,6 +203,10 @@ hash = "0e598c8192680f5fe0381ebebc16c1ea70d9a63aca795c06b1a036b90b983dd5"
 metafile = true
 
 [[files]]
+file = "server-icon.png"
+hash = "47116fe4bfdd812d6c8e187fe2f4e891dec36c4588af116fe370d259e6072f02"
+
+[[files]]
 file = "shaderpacks/photon-shader.pw.toml"
 hash = "e9112a2da03f65451c8c949331d71b92546bbd75ff78eac554d27f6c41e1ba29"
 metafile = true
