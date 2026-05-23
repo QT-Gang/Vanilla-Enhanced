@@ -49,10 +49,6 @@ file = "config/defaultoptions/servers.dat"
 hash = "0bad177a5bd1cf87a51a372d9a62a8058e38a238d1feda7fa778e87f7053d3ec"
 
 [[files]]
-file = "config/firstperson.json"
-hash = "6d9d8a3708ccf453fb710f4e10591cedd4d1767acde97c7da7bbc2cd2c4d4101"
-
-[[files]]
 file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
@@ -135,11 +131,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
-metafile = true
-
-[[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "46061206862d37d7c951508d8593b9a9743b1b95555359e368a55ef70fac9749"
 metafile = true
 
 [[files]]
