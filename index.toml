@@ -29,6 +29,10 @@ file = "config/c2me.toml"
 hash = "af6cf15ccfd3658643b766fc14f8efc59f97c3a68a26505a5ac1d59e4ce3e384"
 
 [[files]]
+file = "config/clickthrough.toml"
+hash = "2b32f8618634f442275bee74f38751dc24e68d0100e8dd247056159b697e07bf"
+
+[[files]]
 file = "config/creativecore-client.json"
 hash = "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac"
 
@@ -106,6 +110,11 @@ metafile = true
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "05608f9174ebde171474deee51bc28ccf0a29d7594a6c0bdc40f06d2c7e32b50"
+metafile = true
+
+[[files]]
+file = "mods/clickthrough+.pw.toml"
+hash = "9d87690aab9b299e25bc37c3c55bbf433d706c0f222e7c17ce72a77035dc84ed"
 metafile = true
 
 [[files]]
