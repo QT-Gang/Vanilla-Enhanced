@@ -142,7 +142,7 @@ hash = "c0047fdc6419bf3d1d4f5cabc2c05e6858b6e0207fc717ba1af39dc764b682d4"
 
 [[files]]
 file = "config/luckperms/luckperms.conf"
-hash = "faaa3a7fb4a34aa1364d7c41e62b4d76c1580071efad24f85497ece5b0e945d5"
+hash = "f881d79acbb55df980a74e38fb72ce98084b5d5995ba230e2091d9fef2c7010e"
 
 [[files]]
 file = "config/luckperms/translations/repository/ar_SA.properties"
