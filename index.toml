@@ -89,6 +89,150 @@ file = "config/iris.properties"
 hash = "c0047fdc6419bf3d1d4f5cabc2c05e6858b6e0207fc717ba1af39dc764b682d4"
 
 [[files]]
+file = "config/luckperms/luckperms.conf"
+hash = "faaa3a7fb4a34aa1364d7c41e62b4d76c1580071efad24f85497ece5b0e945d5"
+
+[[files]]
+file = "config/luckperms/translations/repository/ar_SA.properties"
+hash = "bf8293312a11f0b2cd298a81fe17a51ca72c251b604d581a372c45c7360504eb"
+
+[[files]]
+file = "config/luckperms/translations/repository/bg_BG.properties"
+hash = "06d5a4506b42a80e4bbf4d61801a2166613a441eb9418aa73a3c84e13be3c74a"
+
+[[files]]
+file = "config/luckperms/translations/repository/cs_CZ.properties"
+hash = "c3706f0c9b8dcc15b839dbc28c30abbaa549d429508ce2788d0eb2ed189c6a89"
+
+[[files]]
+file = "config/luckperms/translations/repository/da_DK.properties"
+hash = "25df30b219ddf973f39741ccfb112a3bbcb23b19317f854742c204ba3cd14b66"
+
+[[files]]
+file = "config/luckperms/translations/repository/de_DE.properties"
+hash = "181b26352e6d8731b6d6a96dc188d6283d21e0731209b8e9e0b6fb3f5c455969"
+
+[[files]]
+file = "config/luckperms/translations/repository/el_GR.properties"
+hash = "500a58cccf9935cf0014f9d0c6c738aee2fb7ada382942620c71a12fafe9ee84"
+
+[[files]]
+file = "config/luckperms/translations/repository/en_PT.properties"
+hash = "b4e30ccde47e435249520b1edcab5c771b5263662f1b61caf6fb8d8ef090d343"
+
+[[files]]
+file = "config/luckperms/translations/repository/es_ES.properties"
+hash = "0e88d189b5d075036d4c7d39baf2dc7debec4bc11bea7b524a43e2a84fdef8e0"
+
+[[files]]
+file = "config/luckperms/translations/repository/fa_IR.properties"
+hash = "830623f0017d2bbc92a4eab17fb2c89e8f8c63213da92864c715a04c6af5ffc5"
+
+[[files]]
+file = "config/luckperms/translations/repository/fi_FI.properties"
+hash = "a7b6f2ea67bb2ff88708eeb1bfc6ff0e2bf0ab5e918e4a787f05f648d195660d"
+
+[[files]]
+file = "config/luckperms/translations/repository/fil_PH.properties"
+hash = "b7d79b5b192664855fbf3cdedf55b1a93a6a7b7dee17eeee28cbf74000852ce2"
+
+[[files]]
+file = "config/luckperms/translations/repository/fr_FR.properties"
+hash = "78bec8b2294f9fd2a6a958d7153057064bc7f6bf99aeae4889d73bb844ab30f0"
+
+[[files]]
+file = "config/luckperms/translations/repository/he_IL.properties"
+hash = "0b3836e270dcae860f7851ca511c02ba231ad422c0d35b42499bdc657126c1f0"
+
+[[files]]
+file = "config/luckperms/translations/repository/hi_IN.properties"
+hash = "e2f23be431a0ba843bd02b1c1acd7ecc8c227170619a80d3faad08c7040f7292"
+
+[[files]]
+file = "config/luckperms/translations/repository/hu_HU.properties"
+hash = "6b26d964931d5be3890bbea50ed7d8ef73a6bed172bb64422bf6349e08d90320"
+
+[[files]]
+file = "config/luckperms/translations/repository/id_ID.properties"
+hash = "ea5bcd9633d0927b6d6692484b0dbd62963de90ae9374d2d2dfe1d4aab0fa0f2"
+
+[[files]]
+file = "config/luckperms/translations/repository/it_IT.properties"
+hash = "73ba306112d85a6e88f3d689b0af7de67ee7397748965f49a7970c6b1d311913"
+
+[[files]]
+file = "config/luckperms/translations/repository/ja_JP.properties"
+hash = "b9e839bae812811dc3f44ff3d8086f0a86ad45e56223fd6e88e7723ffa7c1822"
+
+[[files]]
+file = "config/luckperms/translations/repository/ka_GE.properties"
+hash = "2c0ad2e6de804c6ae13b4e5fb7c0c387a16e04710fc5a87f02e0aa09f4ba7383"
+
+[[files]]
+file = "config/luckperms/translations/repository/ko_KR.properties"
+hash = "35051dd4dab93215a6d623af11f7c273169617157ab260baa27addd69f6e1651"
+
+[[files]]
+file = "config/luckperms/translations/repository/nl_NL.properties"
+hash = "7674ff756a3c3aae7c450dd88d3bf5e446757bc1dc6820edf77f5645927fe080"
+
+[[files]]
+file = "config/luckperms/translations/repository/no_NO.properties"
+hash = "902c97ce770205af9a0ef3cb04927b187a607a4cbd0bf460457065ca0e62f949"
+
+[[files]]
+file = "config/luckperms/translations/repository/pl_PL.properties"
+hash = "ba607e2574fc4b0cd26d832cb5736f3abe3cfa20a1d8fbf5cf6fe3c5e7718f79"
+
+[[files]]
+file = "config/luckperms/translations/repository/pt_BR.properties"
+hash = "4ee4f3669e790dec7ecf62e2b6d0350cdd2fd41838925c7c7edf0746e588b755"
+
+[[files]]
+file = "config/luckperms/translations/repository/ro_RO.properties"
+hash = "b0954c2b060b164d55eb5a143277dfd00cfd47ca3d7e2fe1f1b29e17b1cd914e"
+
+[[files]]
+file = "config/luckperms/translations/repository/ru_RU.properties"
+hash = "10f4fe2028fefc01b436bd37b3d3dc1ebd231e86c234559f2f7cfcba61d80daf"
+
+[[files]]
+file = "config/luckperms/translations/repository/sk_SK.properties"
+hash = "42162c5ec694fc09c55b1ded869a1eae7aa35d5a48f8952ed6f34635806c6573"
+
+[[files]]
+file = "config/luckperms/translations/repository/sr_CS.properties"
+hash = "912c0aff4bb5bf77bf907c6ccb072fae19948311d8cb8f4f5d2f97c94adb5533"
+
+[[files]]
+file = "config/luckperms/translations/repository/status.json"
+hash = "b64ab814d07d5d59d9669d1b4e4cbeeed28eb6d69a23013263b4df901fcb7ba8"
+
+[[files]]
+file = "config/luckperms/translations/repository/sv_SE.properties"
+hash = "4a0d1b26ef14040333044bfdec7ca6c32d81251c2f0d3b8006d409dac392f454"
+
+[[files]]
+file = "config/luckperms/translations/repository/tr_TR.properties"
+hash = "7e089aa50240afd2674862bb7529265d050f00e3ac651e10b516e0931fb83f51"
+
+[[files]]
+file = "config/luckperms/translations/repository/uk_UA.properties"
+hash = "1f9ecde9e332484f602bdba194fd46c8c400ee0997dc514f8e2b009bfca63a2b"
+
+[[files]]
+file = "config/luckperms/translations/repository/vi_VN.properties"
+hash = "79c28807f8b0c5ade7aa50aa8ace0d4bc536ea21b605f45d0fa20daeec10955b"
+
+[[files]]
+file = "config/luckperms/translations/repository/zh_CN.properties"
+hash = "040e44fee090cc7e47b7d9677c5c48a7e215d91b27015c3c6aa86cd5f251090d"
+
+[[files]]
+file = "config/luckperms/translations/repository/zh_TW.properties"
+hash = "90b2cabeff4837376eddec80301da3427def197e2dc6e91d30f9a036b7309f73"
+
+[[files]]
 file = "config/modmenu.json"
 hash = "16d20c40cc6c114faff5493b561873fe160a65047720bc19fb3a3dd64aa67f3b"
 
@@ -203,6 +347,11 @@ hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
 metafile = true
 
 [[files]]
+file = "mods/fabric-permissions-api.pw.toml"
+hash = "715606c688d094e5b8e1150a2a99da6b5840df5d6b1de40f437c787a8fb7c770"
+metafile = true
+
+[[files]]
 file = "mods/fallingtree.pw.toml"
 hash = "b1baa744204940671c7501296ae56e97da705f57b9d58bfdb522f87aa30d7d81"
 metafile = true
@@ -230,6 +379,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "51fa2c64e9cf2d5558a2f1e575960a0a9f9f27f73486d0d679c2bc695eb11026"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "f94619f9e5aa689f1dcde4c59841ae50e6b8056abbaf57622c879444b0133faa"
 metafile = true
 
 [[files]]

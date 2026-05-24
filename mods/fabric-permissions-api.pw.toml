@@ -1,0 +1,15 @@
+name = "fabric-permissions-api"
+filename = "fabric-permissions-api-0.7.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/lucko/fabric-permissions-api/releases/download/v0.7.0/fabric-permissions-api-0.7.0.jar"
+hash-format = "sha256"
+hash = "444c8752bf3fc40a452074106fd02d3341b7d350ff006254f59ea1fd17f1272b"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "lucko/fabric-permissions-api"
+tag = "v0.7.0"
