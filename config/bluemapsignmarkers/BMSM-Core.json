@@ -1,0 +1,15 @@
+{
+  "markerGroups": [
+    {
+      "prefix": "[poi]",
+      "matchType": "STARTS_WITH",
+      "type": "POI",
+      "name": "Points of Interest",
+      "offsetX": 0,
+      "offsetY": 0,
+      "defaultHidden": false,
+      "minDistance": 0.0,
+      "maxDistance": 1.0E7
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "BlueMap Banners"
+filename = "bluemap-banners-3.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rx2aSILw/versions/tPUdkem4/bluemap-banners-3.0.2.jar"
+hash-format = "sha512"
+hash = "09bd12aa2525b07e18a300f52e7ab5ae2dba0c95e0e641cf8cb084f246a1b74a78b353d7e37325fa7b8b59bd026566621af96c684e465ffe766d88c63e63bb2a"
+
+[update]
+[update.modrinth]
+mod-id = "rx2aSILw"
+version = "tPUdkem4"

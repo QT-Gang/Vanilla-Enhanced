@@ -33,6 +33,54 @@ file = "config/appleskin.json5"
 hash = "65edc28ca2bf6bd3e3684ae545fb74bcc0ec935a40d6ac60cb68c00c152e34fb"
 
 [[files]]
+file = "config/bluemap-banners/bluemap-banners.properties"
+hash = "547898efb50cf7a16321ff8923e0e39ebf5d70b1e1aa1f11967e0af03d7c0a2e"
+
+[[files]]
+file = "config/bluemap/core.conf"
+hash = "2066c0288001227b943bf32c78f5962ffc31b748537bf57d851f85ad77cae964"
+
+[[files]]
+file = "config/bluemap/maps/world.conf"
+hash = "df37c85a8838e5202f57a3e802f5c9ac272840d89483178a2cabe429d2811bb2"
+
+[[files]]
+file = "config/bluemap/maps/world_the_end.conf"
+hash = "4599f5ea53533cc65130caa2dded110035175cc9c68edb6384f8929378253243"
+
+[[files]]
+file = "config/bluemap/maps/world_the_nether.conf"
+hash = "b8c8e8613faaaf399acfcb6ef0dcd8b0a2747ad3c9136cf52bfb63a675e1827d"
+
+[[files]]
+file = "config/bluemap/plugin.conf"
+hash = "1bed9d05abfad0a839026f30bdef039e3a93f5af6d72f574a7e57b8917a32e6d"
+
+[[files]]
+file = "config/bluemap/storages/file.conf"
+hash = "f99f612f071326c55c65ba6fa5bef73978b286fdafcd350d56aa38c35fc4f120"
+
+[[files]]
+file = "config/bluemap/storages/sql.conf"
+hash = "ecea74225bdf8911433354f7fa3627b49e666c9b5024c9a8e5fc45eebddfc620"
+
+[[files]]
+file = "config/bluemap/webapp.conf"
+hash = "34e793cce96f42471e391b1780d90b37be590bccc5a0a596eba28e4a05416a28"
+
+[[files]]
+file = "config/bluemap/webserver.conf"
+hash = "a0a09b7d4ae8fbd0c0431131b99e777f412fcc5e6948821da411c2863a0fadd4"
+
+[[files]]
+file = "config/bluemapsignmarkers/BMSM-Core.json"
+hash = "2eac08bb3c6a05928c43bf29a948c97a3a4cdae2db84f5602c4fc14e81ffb207"
+
+[[files]]
+file = "config/bluemapsignmarkers/world/signs.json"
+hash = "131bd9296de64c50744e82ab9f85d5c59e70ee6f146bab2da88c997917494d41"
+
+[[files]]
 file = "config/c2me.toml"
 hash = "af6cf15ccfd3658643b766fc14f8efc59f97c3a68a26505a5ac1d59e4ce3e384"
 
@@ -66,7 +114,7 @@ hash = "ed3b25678a185a7c560868e047b60ffd7d7bf9b13d3a45cc5c056f5cfd5b088e"
 
 [[files]]
 file = "config/fallingtree.json"
-hash = "a09eb89374f12d287699f755b31a428d14cef632847ce3c70d05ae5a4f819084"
+hash = "98c7869a4b566dcf9519fb9dafaea8bfaad23e02e16998e16bfd4a02850ffbe4"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
@@ -294,6 +342,21 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "a7549d639da1b91e6a4c921c2959436a78d58118f983fb89fd7ba99feebc4837"
+metafile = true
+
+[[files]]
+file = "mods/bluemap-banners.pw.toml"
+hash = "c7c85d8ca56d036feb09cc1c14cffa2b7942ea768bd1ea2667746b45e595d2b6"
+metafile = true
+
+[[files]]
+file = "mods/bluemap-sign-markers.pw.toml"
+hash = "f6206814cf3124f36b27dc30e1ae4dad1e254d101dc02c1cfe03d46546a75bef"
+metafile = true
+
+[[files]]
+file = "mods/bluemap.pw.toml"
+hash = "a357b9e8dce82cf814ad55fd96326e3bf4480e804366c1938fa9c5542b112e92"
 metafile = true
 
 [[files]]
