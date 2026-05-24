@@ -318,7 +318,7 @@ hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
 
 [[files]]
 file = "config/tree-invite-messages.json"
-hash = "86bd95fe3d2fc403d801c576c4360e8b8ad6d48452a4659b4140f27c724d7362"
+hash = "c7e882525c7a6782609f3cd24954c5f3f8aa1086900f89c1c5f64d4728ba47ca"
 
 [[files]]
 file = "config/trender.json"

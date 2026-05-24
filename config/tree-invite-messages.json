@@ -1,6 +1,6 @@
 {
   "error_systemNotReady": "Invite system is not ready yet",
-  "error_notWhitelisted": "You are not whitelisted! Ask a friend to run /invite {source}",
+  "error_notWhitelisted": "Invite only server! Ask a friend to run /invite {source}",
   "error_cannotSpecifyPlatform": "Cannot specify platform given raw UUID",
   "error_lookupFailed": "Lookup failed: {message}",
   "error_cannotInviteSelf": "You cannot invite yourself",
