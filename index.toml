@@ -90,7 +90,7 @@ hash = "2b32f8618634f442275bee74f38751dc24e68d0100e8dd247056159b697e07bf"
 
 [[files]]
 file = "config/compacthelpcommand.json5"
-hash = "825581047b8eb6372f995a0019636333955d8cd91497f0d1bd9bd4d7357ddcb2"
+hash = "63366768683820736b7d827961f43bd05a2f1321b9eef6851366472e5fab226e"
 
 [[files]]
 file = "config/creativecore-client.json"
@@ -516,6 +516,11 @@ metafile = true
 [[files]]
 file = "mods/treevite.pw.toml"
 hash = "a83eeeb4f25a33f5f16eda4969cb8552696d950b45182075720f574604a0a8d5"
+metafile = true
+
+[[files]]
+file = "mods/universal-perms.pw.toml"
+hash = "cd68a7f1e92af498c7421b5771363582d8c220d971f174a675162aa7612e4390"
 metafile = true
 
 [[files]]

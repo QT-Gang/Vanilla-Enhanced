@@ -1,0 +1,15 @@
+name = "universal-perms"
+filename = "universal_perms-1.0.10.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MathiasSven/universal-perms/releases/download/1.0.10%2Bmc.26.1.2/universal_perms-1.0.10.jar"
+hash-format = "sha256"
+hash = "a085f6c30ae6464958df681d1be0b69a445a7c659de467b6fbd58ed5865f9324"
+
+[update]
+[update.github]
+branch = "26.1.2"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "MathiasSven/universal-perms"
+tag = "1.0.10+mc.26.1.2"
