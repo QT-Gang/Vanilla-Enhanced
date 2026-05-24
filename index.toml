@@ -74,7 +74,7 @@ hash = "fc4d7a195210fb6d32cdfc5a255b6d555ab0225da1a929b61d17dd6b5648c2ba"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "f6b6ee54d5a8f0caf59ffb15330ad89c7628c127a7f7c7ca247175e308868b53"
+hash = "4edcb367121843c3797509b00f4bd43f3e88c14138f6484d195b22e5f7b85ab7"
 
 [[files]]
 file = "config/inventorysorter.json"
