@@ -1,0 +1,8 @@
+name = "FallingTree Enchantments (Modified)"
+filename = "FallingTree.Enchantments.26.1.0-1.Modified.zip"
+side = "both"
+
+[download]
+url = "https://github.com/MathiasSven/FallingTree/releases/download/26.1.2-modified-datapack/FallingTree.Enchantments.26.1.0-1.Modified.zip"
+hash-format = "sha256"
+hash = "8af0955fcee5b625fb0b4a3bdb8646fc227ff70a5190e9d992f05c2f5c6bfe1e"

@@ -66,7 +66,7 @@ hash = "ed3b25678a185a7c560868e047b60ffd7d7bf9b13d3a45cc5c056f5cfd5b088e"
 
 [[files]]
 file = "config/fallingtree.json"
-hash = "9704d03d869a866e68c5e783025c8720df6d35e3e76c56080e08e9bf6473a341"
+hash = "a09eb89374f12d287699f755b31a428d14cef632847ce3c70d05ae5a4f819084"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
@@ -275,6 +275,11 @@ hash = "86bd95fe3d2fc403d801c576c4360e8b8ad6d48452a4659b4140f27c724d7362"
 [[files]]
 file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
+
+[[files]]
+file = "global_packs/required_data/fallingtree-enchantments.pw.toml"
+hash = "08ea29bd633e07ddc5e34da7ed63925802e3400adbff6b40efd1e323c2ac0c92"
+metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
