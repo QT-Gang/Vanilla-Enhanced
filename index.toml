@@ -21,6 +21,14 @@ file = "config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
+file = "config/ViaFabric/viafabric.yml"
+hash = "27b6f4e64c44ee302787c4789487b06f7bbc334bb526f66f7df66be0ad57d6f4"
+
+[[files]]
+file = "config/ViaFabric/viaversion.yml"
+hash = "f43d1d97c0e88a4f6961b5735d56be0bb9188059f28a5f09a70f9ed6193254c0"
+
+[[files]]
 file = "config/appleskin.json5"
 hash = "65edc28ca2bf6bd3e3684ae545fb74bcc0ec935a40d6ac60cb68c00c152e34fb"
 
@@ -210,11 +218,6 @@ hash = "3db1b61528d0fdd908f1fe57685bbc49cdbe496bfe0e349a0280334444193c73"
 metafile = true
 
 [[files]]
-file = "mods/noisiumforked.pw.toml"
-hash = "2c08bbdf7dc74bb0c6775311ecca268dae129e4573a2102a651da48fa4fe311d"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "0f1192a7e40192261310314d9fc2d584c701245dd29698ea1a674b3b676e9abd"
 metafile = true
@@ -256,7 +259,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "0e598c8192680f5fe0381ebebc16c1ea70d9a63aca795c06b1a036b90b983dd5"
+hash = "dccef77d20a5fae24e760b8a012d6833314851cc4512e30d5988e99e45700b77"
 metafile = true
 
 [[files]]
