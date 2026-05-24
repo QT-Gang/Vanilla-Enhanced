@@ -4,7 +4,7 @@
   "showNCRButton": false,
   "showReloadButton": false,
   "verifiedIconEnabled": false,
-  "showServerSafety": false,
+  "showServerSafety": true,
   "hideInsecureMessageIndicators": true,
   "hideModifiedMessageIndicators": true,
   "hideSystemMessageIndicators": true,
@@ -14,7 +14,7 @@
   "skipRealmsWarning": false,
   "disableTelemetry": true,
   "removeTelemetryButton": true,
-  "demandOnServer": true,
+  "demandOnServer": false,
   "verifiedIconOffsetX": 0,
   "verifiedIconOffsetY": 0
 }
