@@ -65,6 +65,18 @@ file = "config/doubledoors.json5"
 hash = "ed3b25678a185a7c560868e047b60ffd7d7bf9b13d3a45cc5c056f5cfd5b088e"
 
 [[files]]
+file = "config/fallingtree.json"
+hash = "9704d03d869a866e68c5e783025c8720df6d35e3e76c56080e08e9bf6473a341"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+hash = "fc4d7a195210fb6d32cdfc5a255b6d555ab0225da1a929b61d17dd6b5648c2ba"
+
+[[files]]
+file = "config/global_packs.toml"
+hash = "f6b6ee54d5a8f0caf59ffb15330ad89c7628c127a7f7c7ca247175e308868b53"
+
+[[files]]
 file = "config/inventorysorter.json"
 hash = "0e1ceed0106a5a23a54aa69d7341d986745e970addebf964c1048889e66c979a"
 
@@ -93,6 +105,10 @@ file = "config/presencefootsteps/userconfig.json5"
 hash = "5083b68a0d0501e16c5fe99f2ca87d5c7ef880c36a647e4db6dfd31a82ac53d4"
 
 [[files]]
+file = "config/quickleafdecay.json"
+hash = "67c483f597356c3d048b9196aef281386b53a8f38879e1491bf095e08a8107df"
+
+[[files]]
 file = "config/shulkerboxtooltip.json5"
 hash = "1e348c244bd5f74045c97877709957c54a0c73c1f0b121bb207e6ebe93f1035a"
 
@@ -107,6 +123,10 @@ hash = "34fc717398de751ce39263c5c9232d97ca45c4959cf83bc069d78c2ed137d401"
 [[files]]
 file = "config/transition.json"
 hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
+
+[[files]]
+file = "config/tree-invite-messages.json"
+hash = "86bd95fe3d2fc403d801c576c4360e8b8ad6d48452a4659b4140f27c724d7362"
 
 [[files]]
 file = "config/trender.json"
@@ -183,8 +203,23 @@ hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
 metafile = true
 
 [[files]]
+file = "mods/fallingtree.pw.toml"
+hash = "b1baa744204940671c7501296ae56e97da705f57b9d58bfdb522f87aa30d7d81"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
 file = "mods/geophilic.pw.toml"
 hash = "543d2dac579c8de2e0035ffc0f33eff08c9b4267c981c397ecf14881a810a275"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "4054621ba956c149298aeddeb452272f9b9cab2fff6a525ca76e73a5321e10fc"
 metafile = true
 
 [[files]]
