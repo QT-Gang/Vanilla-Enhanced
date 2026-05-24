@@ -1,0 +1,17 @@
+{
+  "showSortButton": true,
+  "showTooltips": true,
+  "separateButton": true,
+  "sortPlayerInventory": false,
+  "sortType": "NAME",
+  "enableDoubleClickSort": true,
+  "sortIntoBundles": true,
+  "sortIntoHotbarBundles": true,
+  "sortHighlightedItem": true,
+  "scrollBehaviour": "FREE",
+  "sortPriorityRules": [],
+  "missingServerWarningSuppressions": [],
+  "customCompatibilityListDownloadUrl": "",
+  "preventSortForScreens": [],
+  "hideButtonsForScreens": []
+}

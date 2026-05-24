@@ -1,0 +1,13 @@
+name = "shut up realms"
+filename = "shut-up-realms-1.0.3+26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/esvER4Ln/versions/CSL1wWEI/shut-up-realms-1.0.3%2B26.1.jar"
+hash-format = "sha512"
+hash = "1e39b23b7ceef909aa1a021058a3dbd88a6554a018841b0bd8fa39f9095b449ffa00fd8e7796bcd2838b0437af153983d602ee3bb92d5c976e779d5446f928bd"
+
+[update]
+[update.modrinth]
+mod-id = "esvER4Ln"
+version = "CSL1wWEI"

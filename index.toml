@@ -53,6 +53,14 @@ file = "config/defaultoptions/servers.dat"
 hash = "0bad177a5bd1cf87a51a372d9a62a8058e38a238d1feda7fa778e87f7053d3ec"
 
 [[files]]
+file = "config/doubledoors.json5"
+hash = "ed3b25678a185a7c560868e047b60ffd7d7bf9b13d3a45cc5c056f5cfd5b088e"
+
+[[files]]
+file = "config/inventorysorter.json"
+hash = "0e1ceed0106a5a23a54aa69d7341d986745e970addebf964c1048889e66c979a"
+
+[[files]]
 file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
@@ -75,6 +83,10 @@ hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 [[files]]
 file = "config/presencefootsteps/userconfig.json5"
 hash = "5083b68a0d0501e16c5fe99f2ca87d5c7ef880c36a647e4db6dfd31a82ac53d4"
+
+[[files]]
+file = "config/shulkerboxtooltip.json5"
+hash = "1e348c244bd5f74045c97877709957c54a0c73c1f0b121bb207e6ebe93f1035a"
 
 [[files]]
 file = "config/sodium-mixins.properties"
@@ -123,6 +135,16 @@ hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "6f8497356da66a9100d4250d98785cd15fb69dc28290d2a69ccbe8bcfbc0b2af"
+metafile = true
+
+[[files]]
+file = "mods/compact-help-command.pw.toml"
+hash = "30a85c26db6a37ed1c457ed96c2d34b5720c566145afef488de98d42eee1af21"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "9a3def8e5f210c694fd1af62513eb1289160a0f02840ad2a84495f8ab9636c5b"
 metafile = true
@@ -138,6 +160,16 @@ hash = "adbe039e36d71ac5e8986288240d9a7e13720a108a70ffb0bb989d7a9a7ca30b"
 metafile = true
 
 [[files]]
+file = "mods/double-doors.pw.toml"
+hash = "17b8ecedbf3560b2ccdee03527f394c19c182bde4b778f679c5f22b55c179287"
+metafile = true
+
+[[files]]
+file = "mods/easy-elytra-takeoff.pw.toml"
+hash = "74cd2afdf313ecc9b5dc7eb5a627f72aeda19ee5fcaac3bfffd1b071af97a9df"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
 metafile = true
@@ -148,6 +180,11 @@ hash = "543d2dac579c8de2e0035ffc0f33eff08c9b4267c981c397ecf14881a810a275"
 metafile = true
 
 [[files]]
+file = "mods/inventory-sorting.pw.toml"
+hash = "9a3fe81b158254f77e5f01eb517739ade9cce110e04a9328f6e3e56e787994b1"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "51fa2c64e9cf2d5558a2f1e575960a0a9f9f27f73486d0d679c2bc695eb11026"
 metafile = true
@@ -155,6 +192,16 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "42583eed7ccb599f10285e721c25bf3c8858ef7e0eb8e22aa8bf64a08d98a280"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "89fcae9fccf6aec59355405e1160ed15d523c34e08e555a0da6f46fb8a5087fe"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "5d6f0a4be3f5bae00d50c86f5804a5e8c6dd6b833218f6305dfa74ed186225ee"
 metafile = true
 
 [[files]]
@@ -188,6 +235,16 @@ hash = "740189c3010ec7a924a3f8f91d3bb6649eae654dbc501d0542a44b29f8ca4929"
 metafile = true
 
 [[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "b99a7098a4c9c1af146ee77d42a5a7442673052e023bb4971f2be5f1292da481"
+metafile = true
+
+[[files]]
+file = "mods/shut-up-realms.pw.toml"
+hash = "a4928ae39718823d42b27cd9985aee0cb0f063790ba461092bf8da69faab25b9"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
 metafile = true
@@ -200,6 +257,11 @@ metafile = true
 [[files]]
 file = "mods/viafabric.pw.toml"
 hash = "0e598c8192680f5fe0381ebebc16c1ea70d9a63aca795c06b1a036b90b983dd5"
+metafile = true
+
+[[files]]
+file = "mods/visual-keymap.pw.toml"
+hash = "34aaad24543ce13a0bc938c8ef0e45b6355dbdf9dc0c36a707d0d2f9185df011"
 metafile = true
 
 [[files]]
