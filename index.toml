@@ -464,6 +464,10 @@ hash = "f94619f9e5aa689f1dcde4c59841ae50e6b8056abbaf57622c879444b0133faa"
 metafile = true
 
 [[files]]
+file = "mods/luckperms/defaultperms.json.gz"
+hash = "6511ade42b5d64cc51cbf2364c6c699bf9a991d9c4e8dc8dbd4dcd4bd90cb7ba"
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "42583eed7ccb599f10285e721c25bf3c8858ef7e0eb8e22aa8bf64a08d98a280"
 metafile = true
