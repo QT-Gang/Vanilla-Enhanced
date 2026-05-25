@@ -1,0 +1,15 @@
+name = "fastback"
+filename = "fastback-fabric-0.33.1+26.1.2-notrans.jar"
+side = "server"
+
+[download]
+url = "https://github.com/MathiasSven/fastback/releases/download/0.33.1%2B26.1.2-notrans/fastback-fabric-0.33.1%2B26.1.2-notrans.jar"
+hash-format = "sha256"
+hash = "d3a259c3fb5ec9cd13ea882d8e910b3647aa231c30b8cdee78bcdeacd3b827c9"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+fabric.+\\.jar$"
+slug = "MathiasSven/fastback"
+tag = "0.33.1+26.1.2-notrans"
