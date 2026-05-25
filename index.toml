@@ -10,7 +10,7 @@ hash = "d97ed715e6a8394fab0bea2989a4c8adefc9cb904c78ae7764f5f34b479135c8"
 
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
-hash = "5d01ca13596209f0733c3429dad2153c3bd5564a0b536c950f54d82fe1bd4269"
+hash = "8f4e6ae24a6afe1a75cacbf1bb4e0cda826db5a26ef68c70a5ad6525a10323d8"
 
 [[files]]
 file = "config/NoChatReports/NCR-Common.json"
