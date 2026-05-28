@@ -334,6 +334,10 @@ hash = "08ea29bd633e07ddc5e34da7ed63925802e3400adbff6b40efd1e323c2ac0c92"
 metafile = true
 
 [[files]]
+file = "icon.png"
+hash = "47116fe4bfdd812d6c8e187fe2f4e891dec36c4588af116fe370d259e6072f02"
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "97280c6f029ca84101dc38eb6bafbb7e615e3e0780bc766e0848b2eb0b577202"
 metafile = true
