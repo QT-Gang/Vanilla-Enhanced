@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6.0.2
       - uses: DeterminateSystems/nix-installer-action@v22
-      - uses: DeterminateSystems/magic-nix-cache-action@v13
+      - if: ${{ !env.ACT }}
+        uses: DeterminateSystems/magic-nix-cache-action@v13
 
       - id: pack_toml
         run:
@@ -32,6 +33,7 @@ jobs:
           nix run .#packwiz -- mr export -o "./release/$name-server-$version.mrpack"
 
       - name: Release
+        if: ${{ !env.ACT }}
         uses: softprops/action-gh-release@v3.0.0
         with:
           files: release/*
