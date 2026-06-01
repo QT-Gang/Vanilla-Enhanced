@@ -29,7 +29,7 @@ jobs:
           version="${{ steps.pack_toml.outputs.version }}"
 
           mkdir release
-          nix develop --command packwiz mr export -o "./release/$name-server-$version.mrpack"
+          nix run .#packwiz -- mr export -o "./release/$name-server-$version.mrpack"
 
       - name: Release
         uses: softprops/action-gh-release@v3.0.0

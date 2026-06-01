@@ -1,3 +1,3 @@
-flake.nix
+*.nix
 flake.lock
 .github/
