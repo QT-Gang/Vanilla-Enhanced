@@ -3,7 +3,11 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
-  outputs = { self, nixpkgs }:
+  outputs =
+    {
+      self,
+      nixpkgs,
+    }:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
@@ -13,7 +17,10 @@
       packages.${system} = import ./nix/packages { inherit pkgs; };
 
       apps.${system} = {
-        packwiz = { type = "app"; program = lib.getExe pkgs.packwiz; };
+        packwiz = {
+          type = "app";
+          program = lib.getExe pkgs.packwiz;
+        };
       };
 
       devShells.${system}.default = pkgs.mkShellNoCC {
@@ -24,5 +31,7 @@
           packwiz
         ];
       };
+
+      formatter.${system} = pkgs.nixfmt-tree;
     };
 }

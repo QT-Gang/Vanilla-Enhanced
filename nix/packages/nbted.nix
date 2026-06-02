@@ -3,7 +3,6 @@
   rustPlatform,
   fetchFromGitHub,
 }:
-
 rustPlatform.buildRustPackage {
   pname = "nbted";
   version = "unstable";
@@ -16,7 +15,7 @@ rustPlatform.buildRustPackage {
   };
 
   cargoHash = "sha256-IMF5vc9p/+M/gMrUxOE3eojdATfera5dD62kcJEpzd8=";
-  
+
   meta = {
     description = "Command-line NBT editor";
     homepage = "https://github.com/C4K3/nbted";
