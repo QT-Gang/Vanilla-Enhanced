@@ -42,15 +42,15 @@ hash = "2066c0288001227b943bf32c78f5962ffc31b748537bf57d851f85ad77cae964"
 
 [[files]]
 file = "config/bluemap/maps/world.conf"
-hash = "df37c85a8838e5202f57a3e802f5c9ac272840d89483178a2cabe429d2811bb2"
+hash = "dbd81df14dfa3cbfc23e8a9778201aa8229048e4c99635bef0c4b37dc3c32ee2"
 
 [[files]]
 file = "config/bluemap/maps/world_the_end.conf"
-hash = "4599f5ea53533cc65130caa2dded110035175cc9c68edb6384f8929378253243"
+hash = "2e19457c9a8ed2af8658cfd61233c93c481449aa83c5bca1087dff1bb973b807"
 
 [[files]]
 file = "config/bluemap/maps/world_the_nether.conf"
-hash = "b8c8e8613faaaf399acfcb6ef0dcd8b0a2747ad3c9136cf52bfb63a675e1827d"
+hash = "09439d03f1f84a0ef548f716eb4867058308621cbce6a1d6baa1e6167886c467"
 
 [[files]]
 file = "config/bluemap/plugin.conf"
