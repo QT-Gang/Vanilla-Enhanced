@@ -112,12 +112,10 @@ in
       /execute in minecraft:overworld run worldborder set 8192
       /execute in minecraft:the_nether run worldborder set 1024
       /execute in minecraft:the_end run worldborder set 6912
-
       /setglobalmaxinvites 5
       /invite 904aa817-1d9c-4f44-9921-2df2d63db697
       /lp import defaultperms --replace
       /lp user 904aa817-1d9c-4f44-9921-2df2d63db697 parent set admin
-
       /backup init
       /backup set broadcast-enabled true
       /backup set mods-backup-enabled false
