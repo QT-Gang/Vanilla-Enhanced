@@ -1,4 +1,4 @@
 { pkgs }:
 {
-  nbted = pkgs.callPackage ./nbted.nix { };
+  nbted = pkgs.callPackage ./nbted { };
 }

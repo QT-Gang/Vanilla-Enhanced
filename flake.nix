@@ -16,6 +16,8 @@
     {
       packages.${system} = import ./nix/packages { inherit pkgs; };
 
+      lib = import ./nix/lib { inherit pkgs; };
+
       apps.${system} = {
         packwiz = {
           type = "app";
