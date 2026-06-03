@@ -29,7 +29,7 @@
         packages = with pkgs; [
           act
           nbted
-          nixos-container
+          nixos-shell
           packwiz
         ];
       };
