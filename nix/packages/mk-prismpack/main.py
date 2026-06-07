@@ -4,19 +4,32 @@ import argparse
 import hashlib
 import io
 import json
+import logging
 import sys
 import tomllib
 import zipfile
 from collections.abc import Sequence
 from configparser import ConfigParser
+from enum import StrEnum, auto
 from pathlib import Path
 from typing import Any, Final, Literal, TypedDict
 
 import requests
 
+logger = logging.getLogger(__name__)
+
 META: Final[str] = "https://meta.prismlauncher.org/v1"
 
 type Loader = Literal["fabric", "quilt", "forge", "neoforge", "vanilla"]
+
+
+class LogLevel(StrEnum):
+    NOTSET = auto()
+    DEBUG = auto()
+    INFO = auto()
+    WARNING = auto()
+    ERROR = auto()
+    CRITICAL = auto()
 
 
 class LoaderInfo(TypedDict):
@@ -54,7 +67,9 @@ LOADER_CHAINS: dict[Loader, LoaderInfo] = {
 
 
 def get_component(uid: str, version: str):
-    r = requests.get(f"{META}/{uid}/{version}.json")
+    url: str = f"{META}/{uid}/{version}.json"
+    logger.debug(f"Requesting: {url}")
+    r = requests.get(url)
     r.raise_for_status()
     return r.json()
 
@@ -79,7 +94,9 @@ def build_mmc_pack(
 ) -> MMCPackData:
     chain = LOADER_CHAINS[loader_name]
 
+    logger.debug("Fetching component...")
     mc_data = get_component("net.minecraft", mc_version)
+    logger.debug("Done!")
     components = [make_entry(mc_data, "net.minecraft", mc_version, important=True)]
 
     lwjgl_uid = next(
@@ -133,7 +150,7 @@ def create_zip(
 
         zf.writestr(*icon_obj)
 
-    print(f"Written to {output_path}")
+    logger.info(f"Wrote to {output_path}")
 
 
 def main():
@@ -144,18 +161,29 @@ def main():
         type=Path,
         help="Output file or directory path",
     )
+    parser.add_argument(
+        "--level",
+        type=LogLevel,
+        help="Logging level as defined by the logging module (lowercase)",
+        default=LogLevel.INFO,
+    )
     args = parser.parse_args()
+    logging.basicConfig(level=args.level.upper())
 
     pack_toml: Path = Path("./pack.toml")
     instance_file: Path = Path("./instance.cfg")
     icon: Path = Path("./icon.png")
 
+    logger.info("Loading pack.toml data")
     pack_data = tomllib.loads(pack_toml.read_text())
     instance_config: ConfigParser = ConfigParser()
     instance_config.optionxform = lambda optionstr: str(optionstr)
+    logger.info("Loading instance.cfg data")
     instance_config.read(instance_file)
+    logger.info("Loading icon data")
     icon_data: bytes = icon.read_bytes()
     icon_hash: str = hashlib.sha256(icon_data).hexdigest()[:8]
+    logger.debug(f"Icon hash: {icon_hash}")
     icon_key: str = f"{pack_data['name']}_{icon_hash}"
     icon_obj = (f"{icon_key}.png", icon_data)
 
@@ -180,11 +208,24 @@ def main():
         case _:
             raise Exception("Couldn't parse pack.toml")
 
+    logger.info(
+        "\n".join(
+            [
+                "Got:",
+                f"    {mc_version = }",  # noqa: E251, E202
+                f"    {loader_name = }",  # noqa: E251, E202
+                f"    {loader_version = }",  # noqa: E251, E202
+            ]
+        )
+    )
+
     try:
+        logger.info("Building mmc-pack.json data")
         mmc_pack_data = build_mmc_pack(mc_version, loader_name, loader_version)
+        logger.info("Creating Zip File")
         create_zip(mmc_pack_data, instance_config, icon_obj, output)
     except requests.HTTPError as e:
-        print(f"Failed to fetch metadata: {e}")
+        logger.error(f"Failed to fetch metadata: {e}")
         sys.exit(1)
 
 
