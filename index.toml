@@ -457,6 +457,11 @@ hash = "4054621ba956c149298aeddeb452272f9b9cab2fff6a525ca76e73a5321e10fc"
 metafile = true
 
 [[files]]
+file = "mods/hide-experimental-warning.pw.toml"
+hash = "9faeb3678b28eb377dd90ba521b3f714da48820251e6d75526b040786bb8c088"
+metafile = true
+
+[[files]]
 file = "mods/inventory-sorting.pw.toml"
 hash = "9a3fe81b158254f77e5f01eb517739ade9cce110e04a9328f6e3e56e787994b1"
 metafile = true
