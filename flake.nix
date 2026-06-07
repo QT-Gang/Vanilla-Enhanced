@@ -18,7 +18,11 @@
       inherit (nixpkgs) lib;
     in
     {
-      packages.${system} = import ./nix/packages { inherit pkgs; };
+      packages.${system} =
+        let
+          scope = import ./nix/packages { inherit pkgs; };
+        in
+        scope.packages scope;
 
       lib = import ./nix/lib { inherit pkgs; };
 
@@ -48,13 +52,13 @@
         in
         pkgs.mkShellNoCC {
           packages =
-            with pkgs;
+            with (pkgs // self.packages.${system});
             [
               act
               attr
-              nbted
               nixos-shell
               packwiz
+              self.packages.${system}.nbted
             ]
             ++ pythonDev;
         };
