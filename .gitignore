@@ -2,3 +2,4 @@
 *.mrpack
 *.qcow2
 qemu-mount/
+result
