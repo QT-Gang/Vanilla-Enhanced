@@ -1,7 +1,9 @@
 *.nix
+nix/
 flake.lock
 .github/
 *.qcow2
 qemu-mount/
 .editorconfig
 Justfile
+instance.cfg

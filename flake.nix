@@ -27,17 +27,37 @@
           type = "app";
           program = lib.getExe pkgs.packwiz;
         };
+        mk-prismpack = {
+          type = "app";
+          program = lib.getExe self.packages.${system}.mk-prismpack;
+        };
       };
 
-      devShells.${system}.default = pkgs.mkShellNoCC {
-        packages = with pkgs; [
-          act
-          attr
-          nbted
-          nixos-shell
-          packwiz
-        ];
-      };
+      devShells.${system}.default =
+        let
+          pythonDev = with pkgs; [
+            black
+            isort
+
+            (python3.withPackages (
+              python-pkgs: with python-pkgs; [
+                requests
+              ]
+            ))
+          ];
+        in
+        pkgs.mkShellNoCC {
+          packages =
+            with pkgs;
+            [
+              act
+              attr
+              nbted
+              nixos-shell
+              packwiz
+            ]
+            ++ pythonDev;
+        };
 
       formatter.${system} = pkgs.nixfmt-tree;
 
