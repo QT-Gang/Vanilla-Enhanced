@@ -5,6 +5,7 @@ import hashlib
 import io
 import json
 import logging
+import re
 import sys
 import tomllib
 import zipfile
@@ -162,6 +163,13 @@ def main():
         help="Output file or directory path",
     )
     parser.add_argument(
+        "-D",
+        "--dev",
+        action="store_true",
+        help="Use http://localhost:8080 for PreLaunchCommand",
+        default=LogLevel.INFO,
+    )
+    parser.add_argument(
         "--level",
         type=LogLevel,
         help="Logging level as defined by the logging module (lowercase)",
@@ -188,6 +196,14 @@ def main():
     icon_obj = (f"{icon_key}.png", icon_data)
 
     instance_config["General"]["iconKey"] = icon_key
+
+    if args.dev:
+        logger.info("Dev mode enabled, modifying PreLaunchCommand command")
+        instance_config["General"]["PreLaunchCommand"] = re.sub(
+            r"http\S*(/pack.toml)",
+            "http://localhost:8080\\1",
+            instance_config["General"]["PreLaunchCommand"],
+        )
 
     out_name: str = f"{pack_data['name']}.zip"
 
