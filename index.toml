@@ -494,7 +494,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "8453ad8435649ba5fdfc4a1591fb131e5f17987d893433f36528b158617c82d3"
+hash = "25f6eba777c2e50bc8a3a259435f6695add97185c04ee93998897e5d2e645d33"
 metafile = true
 
 [[files]]
@@ -534,7 +534,7 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete.pw.toml"
-hash = "8ba3e0db33d4a59a2b2b78ca75f3312d117a722ccea52727a28326b440b2ab36"
+hash = "34064a7e3c8e71bc31ef80a103b1791de0bd1e1ac7672f4811668c7e377d8305"
 metafile = true
 
 [[files]]
