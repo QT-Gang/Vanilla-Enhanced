@@ -58,6 +58,7 @@
               attr
               nixos-shell
               packwiz
+              yq-go
               self.packages.${system}.nbted
             ]
             ++ pythonDev;

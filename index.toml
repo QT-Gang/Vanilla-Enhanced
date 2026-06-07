@@ -643,3 +643,7 @@ metafile = true
 [[files]]
 file = "shaderpacks/photon_v1.3b.zip.txt"
 hash = "8a7c004fce3316db061938a5a0a7969aab2d40a10fd690bf800de65191f52cc4"
+
+[[files]]
+file = "versioninfo.json"
+hash = "605f9f6a3a19b028496d8b38451a364518acb40bd907cbeda281db62be2622da"
