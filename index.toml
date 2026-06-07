@@ -121,6 +121,62 @@ file = "config/fallingtree.json"
 hash = "98c7869a4b566dcf9519fb9dafaea8bfaad23e02e16998e16bfd4a02850ffbe4"
 
 [[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "535db450a125a856472e38d6c9cd7ed94961e83a9c19fcaab25c6b6ccb515c60"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "0b5b40a2846d23e3d343e4cb330cc80010b02d5905d9e990b5d67c48eee8006a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/ferritecore.mixin.properties"
 hash = "fc4d7a195210fb6d32cdfc5a255b6d555ab0225da1a929b61d17dd6b5648c2ba"
 
@@ -437,6 +493,11 @@ hash = "b1baa744204940671c7501296ae56e97da705f57b9d58bfdb522f87aa30d7d81"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "8453ad8435649ba5fdfc4a1591fb131e5f17987d893433f36528b158617c82d3"
+metafile = true
+
+[[files]]
 file = "mods/fastback.pw.toml"
 hash = "23b5ef8851ce39e598d962cc4899834e44e3d9bf8ff5c45b3bd9357df756d465"
 metafile = true
@@ -472,6 +533,11 @@ hash = "51fa2c64e9cf2d5558a2f1e575960a0a9f9f27f73486d0d679c2bc695eb11026"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "8ba3e0db33d4a59a2b2b78ca75f3312d117a722ccea52727a28326b440b2ab36"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "f70d8ec7c871ad284b1e155c7a8a8461edc00c7b1ddecec0c10f212f77911376"
 metafile = true
@@ -484,6 +550,11 @@ metafile = true
 [[files]]
 file = "mods/luckperms/defaultperms.json.gz"
 hash = "6511ade42b5d64cc51cbf2364c6c699bf9a991d9c4e8dc8dbd4dcd4bd90cb7ba"
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "885444f9444eed0b2f71445d795a7a3462c5646edd1940468a791cc46a6626ec"
+metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
