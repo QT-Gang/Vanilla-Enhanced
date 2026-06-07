@@ -1,4 +1,8 @@
-{ inputs, self }:
+{
+  inputs,
+  self,
+  system,
+}:
 
 {
   config,
@@ -11,7 +15,7 @@ let
   rconPassword = "minecraft";
   rconPort = 25575;
   mconsole = pkgs.writeScriptBin "mconsole" ''
-    ${pkgs.rlwrap}/bin/rlwrap ${pkgs.mcrcon}/bin/mcrcon -p '${rconPassword}'
+    ${pkgs.rlwrap}/bin/rlwrap ${self.packages.${system}.mcrcon}/bin/mcrcon -p '${rconPassword}'
   '';
 
   inherit (inputs.nix-minecraft.lib) collectFiles;
