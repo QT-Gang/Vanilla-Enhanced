@@ -19,7 +19,7 @@
     # Needed for DistantHorizons' SQLite DB
     fileSystems."/srv".options = [ "cache=mmap" ];
     cores = 4;
-    memorySize = 8 * 1024;
+    memorySize = 9 * 1024;
     diskSize = 5 * 1024;
     forwardPorts = [
       {
