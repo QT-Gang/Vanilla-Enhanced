@@ -1,0 +1,13 @@
+name = "Disconnect Packet Fix"
+filename = "disconnect-packet-fix-fabric-2.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rd9rKuJT/versions/x9gVeaTU/disconnect-packet-fix-fabric-2.1.0.jar"
+hash-format = "sha512"
+hash = "bf84d02bdcd737706df123e452dd31ef535580fa4ced6af1e4ceea022fef94e4764775253e970b8caa1292e2fa00eb470557f70b290fafdb444479fa801b07a1"
+
+[update]
+[update.modrinth]
+mod-id = "rd9rKuJT"
+version = "x9gVeaTU"
