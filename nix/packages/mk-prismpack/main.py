@@ -167,7 +167,6 @@ def main():
         "--dev",
         action="store_true",
         help="Use http://localhost:8080 for PreLaunchCommand",
-        default=LogLevel.INFO,
     )
     parser.add_argument(
         "--level",
