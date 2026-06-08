@@ -8,3 +8,4 @@ qemu-mount/
 Justfile
 instance.cfg
 result
+/README.md
