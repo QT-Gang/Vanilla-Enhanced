@@ -126,7 +126,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+hash = "25de6a4077bca6bf8ff20120f45c73fac89b72439ef88a41bf1d95912115219c"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
