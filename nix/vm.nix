@@ -27,8 +27,15 @@
         host.port = 25565;
         guest.port = 25565;
       }
+      {
+        from = "host";
+        host.port = 8099;
+        guest.port = 80;
+      }
     ];
   };
   nixpkgs.config.allowUnfree = true;
   system.stateVersion = "26.05";
+
+  vanillaqt.dev = true;
 }
