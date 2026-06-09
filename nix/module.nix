@@ -124,9 +124,9 @@ in
             printf '%s\n' "$line" > ${minecraft-server-stdin-sock}
             sleep 0.5
         done <<'EOF'
-        /execute in minecraft:overworld run worldborder set 8192
-        /execute in minecraft:the_nether run worldborder set 1024
-        /execute in minecraft:the_end run worldborder set 6912
+        /execute in minecraft:overworld run worldborder set 16384
+        /execute in minecraft:the_nether run worldborder set 2048
+        /execute in minecraft:the_end run worldborder set 13824
         /setglobalmaxinvites 5
         /invite 904aa817-1d9c-4f44-9921-2df2d63db697
         /lp import defaultperms --replace
