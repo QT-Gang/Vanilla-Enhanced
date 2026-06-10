@@ -1,12 +1,12 @@
 name = "VanillaQT"
 author = "Mathias Sven"
-version = "1.0.0"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e8074f2f871a219757d7a2901a81377b5b3a45b98f6aadfaef6e1efc83f5f4c5"
+hash = "09e3dcfc124b645a6715058009219f5168387893a2fd535834d289f6aeb90af6"
 
 [versions]
 fabric = "0.19.2"
