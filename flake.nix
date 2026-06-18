@@ -59,9 +59,19 @@
               nixos-shell
               packwiz
               yq-go
+              just
+              openjdk25
               self.packages.${system}.nbted
+              self.packages.${system}.headlessmc
             ]
             ++ pythonDev;
+
+          PACKWIZ_INSTALLER_BOOTSTRAP_JAR = self.packages.${system}.packwiz-installer-bootstrap;
+
+          shellHook = ''
+            source ${./nix/shell/packwiz-server.bash}
+            shopt -u checkjobs
+          '';
         };
 
       formatter.${system} = pkgs.nixfmt-tree;

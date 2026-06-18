@@ -9,3 +9,7 @@ Justfile
 instance.cfg
 result
 /README.md
+.minecraft/
+mc-libassets/
+HeadlessMC/
+/CONTRIBUTING.md

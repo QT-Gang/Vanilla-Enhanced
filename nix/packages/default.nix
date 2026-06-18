@@ -6,5 +6,6 @@ pkgs.lib.makeScope pkgs.newScope (
     packwiz-installer-bootstrap = callPackage ./packwiz-installer-bootstrap { };
     mk-prismpack = callPackage ./mk-prismpack { };
     mcrcon = callPackage ./mcrcon { };
+    headlessmc = callPackage ./headlessmc { };
   }
 )

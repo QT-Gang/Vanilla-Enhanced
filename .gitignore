@@ -3,3 +3,7 @@
 *.qcow2
 qemu-mount/
 result
+.minecraft/
+mc-libassets/
+HeadlessMC/*
+!HeadlessMC/config.properties
