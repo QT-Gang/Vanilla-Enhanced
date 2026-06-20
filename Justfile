@@ -50,7 +50,7 @@ packwiz-server REV="":
 	fi
 
 [group: 'client testing']
-[env("JAVA_TOOL_OPTIONS", f"-Dhmc.jvmargs={{jvmargs}}")]
+[env("JAVA_TOOL_OPTIONS", f"-Dhmc.jvmargs='{{jvmargs}}'")]
 headlessmc *ARGS:
 	headlessmc {{ if ARGS != "" { "--command " + ARGS } else { "" } }}
 
