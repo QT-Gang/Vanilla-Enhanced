@@ -1,0 +1,18 @@
+diff --git a/gui/build.gradle.kts b/gui/build.gradle.kts
+index 940726e..6a98946 100644
+--- a/gui/build.gradle.kts
++++ b/gui/build.gradle.kts
+@@ -10,11 +10,13 @@ dependencies {
+     implementation(project(":common"))
+     implementation(compose.desktop.currentOs)
+     implementation("com.google.code.gson:gson:2.11.0")
++    runtimeOnly("org.slf4j:slf4j-simple:2.0.17")
+ }
+ 
+ compose.desktop {
+     application {
+         mainClass = "fr.raconteur.moc.gui.MainKt"
++        jvmArgs("--enable-native-access=ALL-UNNAMED")
+     }
+ }
+ 

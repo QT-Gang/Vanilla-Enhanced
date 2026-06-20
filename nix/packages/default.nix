@@ -7,5 +7,6 @@ pkgs.lib.makeScope pkgs.newScope (
     mk-prismpack = callPackage ./mk-prismpack { };
     mcrcon = callPackage ./mcrcon { };
     headlessmc = callPackage ./headlessmc { };
+    moc-gui = callPackage ./moc-gui { };
   }
 )

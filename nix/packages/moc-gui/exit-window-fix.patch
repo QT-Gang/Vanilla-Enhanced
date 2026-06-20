@@ -1,0 +1,24 @@
+diff --git a/gui/src/main/kotlin/fr/raconteur/moc/gui/Main.kt b/gui/src/main/kotlin/fr/raconteur/moc/gui/Main.kt
+index 6cd74c2..64839de 100644
+--- a/gui/src/main/kotlin/fr/raconteur/moc/gui/Main.kt
++++ b/gui/src/main/kotlin/fr/raconteur/moc/gui/Main.kt
+@@ -13,6 +13,7 @@ import fr.raconteur.moc.MocMigration
+ import fr.raconteur.moc.filesystem.McInstanceRefMocFileSystem
+ import fr.raconteur.moc.platform.PlatformService
+ import fr.raconteur.moc.versioning.PatchMode
++import kotlin.system.exitProcess
+ 
+ fun main(args: Array<String>) {
+     PlatformService.INSTANCE = GuiPlatformService
+@@ -24,7 +25,10 @@ fun main(args: Array<String>) {
+         val state = remember { AppState() }
+ 
+         Window(
+-            onCloseRequest = ::exitApplication,
++            onCloseRequest = {
++                exitApplication()
++                exitProcess(0)
++            },
+             title = "MOC — Modpack Options Control",
+             state = rememberWindowState(width = 1100.dp, height = 720.dp),
+             onPreviewKeyEvent = { event ->
