@@ -4,7 +4,7 @@
      * Sets the global footsteps volume on a value between 0% and 100%
      * Default: 70
      */
-    "volume": 70,
+    "volume": 50,
     /*
      * Sets the volume of sounds generated due to walking through foliage and brush
      * Default: 50

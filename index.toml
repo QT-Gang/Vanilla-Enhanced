@@ -358,7 +358,8 @@ hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json5"
-hash = "5083b68a0d0501e16c5fe99f2ca87d5c7ef880c36a647e4db6dfd31a82ac53d4"
+hash = "84c96bfa949d5e015c8fdc266ff91a8516867afee1d33a8335585e55633797a8"
+preserve = true
 
 [[files]]
 file = "config/quickleafdecay.json"
