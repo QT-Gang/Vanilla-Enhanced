@@ -94,7 +94,10 @@ in
         files = collectFiles modpack;
       };
     };
-    environment.systemPackages = [ mconsole ];
+    environment.systemPackages = [
+      mconsole
+      pkgs.mcaselector
+    ];
 
     assertions = [
       {
