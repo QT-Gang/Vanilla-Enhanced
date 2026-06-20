@@ -138,6 +138,7 @@ in
         /backup set autoback-wait 360
         /backup set shutdown-action full-gc
         /backup set restore-directory fastback_restore
+        /gamerule playersSleepingPercentage 50
         EOF
 
         touch "${minecraft-server-workdir}/.initialized";
