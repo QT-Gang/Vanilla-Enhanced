@@ -77,10 +77,6 @@ file = "config/bluemapsignmarkers/BMSM-Core.json"
 hash = "2eac08bb3c6a05928c43bf29a948c97a3a4cdae2db84f5602c4fc14e81ffb207"
 
 [[files]]
-file = "config/bluemapsignmarkers/world/signs.json"
-hash = "7ae48a1f0a3769adf7ec2f323452602479d09f42761af1ff007f253a7709b561"
-
-[[files]]
 file = "config/c2me.toml"
 hash = "af6cf15ccfd3658643b766fc14f8efc59f97c3a68a26505a5ac1d59e4ce3e384"
 
