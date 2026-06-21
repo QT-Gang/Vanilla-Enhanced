@@ -1,0 +1,13 @@
+name = "Hidden Ores"
+filename = "Hidden Ores v1.1.zip"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rUtEAnbV/versions/PDtRkzpm/Hidden%20Ores%20v1.1.zip"
+hash-format = "sha512"
+hash = "1f1b4d49ad7a381a3299a062cbfb98fb65b6372b229d9b382cee6ba8a157a75f033b595f4ad5672ae614318e612e2913b92b98a608e2843fb921cb211303abc5"
+
+[update]
+[update.modrinth]
+mod-id = "rUtEAnbV"
+version = "PDtRkzpm"

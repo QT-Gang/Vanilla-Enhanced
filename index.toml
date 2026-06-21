@@ -38,19 +38,20 @@ hash = "08d32dc0786de95b7e87ba91932ff1b3f04290c02f4e06bc688551e08eb3d549"
 
 [[files]]
 file = "config/bluemap/core.conf"
-hash = "89010c0d842477ae57db045ce1bb47cb742bc0cc9cf5431c6e142a09fc292315"
+hash = "a76dcee88d72338d9dca2863f19131d7ddacbf02dd18776564d3ed7bad93250a"
 
 [[files]]
 file = "config/bluemap/maps/world.conf"
-hash = "dbd81df14dfa3cbfc23e8a9778201aa8229048e4c99635bef0c4b37dc3c32ee2"
+hash = "488f7c440bf8dbcb45cd984dc28230a755151dc301ff4030d4beef2ed3689901"
 
 [[files]]
 file = "config/bluemap/maps/world_the_end.conf"
-hash = "2e19457c9a8ed2af8658cfd61233c93c481449aa83c5bca1087dff1bb973b807"
+hash = "8d81e540e14b1da398625ad82fecc346c158ae5fa81327b989be00026a3362cd"
 
 [[files]]
-file = "config/bluemap/maps/world_the_nether.conf"
-hash = "09439d03f1f84a0ef548f716eb4867058308621cbce6a1d6baa1e6167886c467"
+file = "config/bluemap/packs/hiddenores.pw.toml"
+hash = "3a3a5120dba79d025605fa6a85d510d84d502fc24aeb51c28d809b2099ae1c06"
+metafile = true
 
 [[files]]
 file = "config/bluemap/plugin.conf"
