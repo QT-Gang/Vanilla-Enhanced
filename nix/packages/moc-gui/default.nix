@@ -56,7 +56,7 @@ stdenv.mkDerivation (finalAttrs: {
 
     mv $out/bin/{,moc-}gui
     mv $out/lib/app/{,moc-}gui.cfg
-    
+
     runHook postInstall
   '';
 

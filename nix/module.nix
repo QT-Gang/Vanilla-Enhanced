@@ -106,49 +106,54 @@ in
       }
     ];
 
-    systemd.services."${minecraft-server-name}-init" = {
-      after = [ "${minecraft-server-service-name}.service" ];
-      requires = [ "${minecraft-server-service-name}.service" ];
+    systemd.services =
+      let
+      in
+      {
+        "${minecraft-server-name}-init" = {
+          after = [ "${minecraft-server-service-name}.service" ];
+          requires = [ "${minecraft-server-service-name}.service" ];
 
-      unitConfig.ConditionPathExists = "!${minecraft-server-workdir}/.initialized";
+          unitConfig.ConditionPathExists = "!${minecraft-server-workdir}/.initialized";
 
-      serviceConfig.Type = "oneshot";
+          serviceConfig.Type = "oneshot";
 
-      script = ''
-        echo "Waiting for Minecraft readiness"
-        until grep -q "Done (" "${minecraft-server-workdir}/logs/latest.log"; do
-          sleep 2
-        done
-        echo "Minecraft ready"
+          script = ''
+            echo "Waiting for Minecraft readiness"
+            until grep -q "Done (" "${minecraft-server-workdir}/logs/latest.log"; do
+              sleep 2
+            done
+            echo "Minecraft ready"
 
-        echo "DistantHorizons.*" > "${minecraft-server-workdir}/world/dimensions/.gitignore"
+            echo "DistantHorizons.*" > "${minecraft-server-workdir}/world/dimensions/.gitignore"
 
-        while IFS= read -r line; do
-            printf '%s\n' "$line" > ${minecraft-server-stdin-sock}
-            sleep 0.5
-        done <<'EOF'
-        /execute in minecraft:overworld run worldborder set 16384
-        /execute in minecraft:the_nether run worldborder set 2048
-        /execute in minecraft:the_end run worldborder set 13824
-        /setglobalmaxinvites 5
-        /invite 904aa817-1d9c-4f44-9921-2df2d63db697
-        /lp import defaultperms --replace
-        /lp user 904aa817-1d9c-4f44-9921-2df2d63db697 parent set admin
-        /backup init
-        /backup set broadcast-enabled true
-        /backup set mods-backup-enabled false
-        /backup set retention-policy fixed 5
-        /backup set autoback-wait 360
-        /backup set shutdown-action full-gc
-        /backup set restore-directory fastback_restore
-        /gamerule playersSleepingPercentage 50
-        EOF
+            while IFS= read -r line; do
+                printf '%s\n' "$line" > ${minecraft-server-stdin-sock}
+                sleep 0.5
+            done <<'EOF'
+            /execute in minecraft:overworld run worldborder set 16384
+            /execute in minecraft:the_nether run worldborder set 2048
+            /execute in minecraft:the_end run worldborder set 13824
+            /setglobalmaxinvites 5
+            /invite 904aa817-1d9c-4f44-9921-2df2d63db697
+            /lp import defaultperms --replace
+            /lp user 904aa817-1d9c-4f44-9921-2df2d63db697 parent set admin
+            /backup init
+            /backup set broadcast-enabled true
+            /backup set mods-backup-enabled false
+            /backup set retention-policy fixed 5
+            /backup set autoback-wait 360
+            /backup set shutdown-action full-gc
+            /backup set restore-directory fastback_restore
+            /gamerule playersSleepingPercentage 50
+            EOF
 
-        touch "${minecraft-server-workdir}/.initialized";
-      '';
+            touch "${minecraft-server-workdir}/.initialized";
+          '';
 
-      wantedBy = [ "multi-user.target" ];
-    };
+          wantedBy = [ "multi-user.target" ];
+        };
+      };
 
     # required for nginx to have access to the webroot
     users.users.nginx.extraGroups = [ "minecraft" ];
