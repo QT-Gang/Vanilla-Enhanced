@@ -206,7 +206,7 @@ in
 
     services.nginx = {
       enable = mkIf cfg.dev true;
-      virtualHosts.${if cfg.dev then hostname else "localhost"} = {
+      virtualHosts.${if !cfg.dev then hostname else "localhost"} = {
         enableACME = !cfg.dev;
         forceSSL = !cfg.dev;
         root = "${minecraft-server-workdir}/bluemap/web";
