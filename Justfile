@@ -4,9 +4,12 @@ mc_version := `yq -p toml -ot .versions.minecraft ./pack.toml`
 fabric_version := `yq -p toml -ot .versions.fabric ./pack.toml`
 canonical_version := f"fabric-loader-{{fabric_version}}-{{mc_version}}"
 version_path := f"./mc-libassets/versions/{{canonical_version}}"
-jvmargs := `yq -p ini -ot \
-	'.General | "-Xms\(.MinMemAlloc)M -Xmx\(.MaxMemAlloc)M \(.JvmArgs)"' \
-	instance.cfg`
+jvmargs := env(
+	"JAVA_ARGS",
+	`yq -p ini -ot \
+		'.General | "-Xms\(.MinMemAlloc)M -Xmx\(.MaxMemAlloc)M \(.JvmArgs)"' \
+		instance.cfg`
+)
 
 [default]
 @list-recipes:
