@@ -178,15 +178,23 @@ in
           script = ''
             ${waitForMinecraftScript}
 
-            readarray -t spawn < <(nbt -r ./world/level.dat --path "Data.spawn.pos[]")
-            export spawn_x="''${spawn[0]}"
-            export spawn_z="''${spawn[2]}"
-            echo "World Spawn: ''${spawn[@]}"
+            spawn="$(nbt -r ./world/level.dat --path "Data.spawn" --json)"
+            export spawn
+            yq -n '
+              env(spawn) |
+              "World Spawn: {x: \(.pos[0]), z: \(.pos[2]), dimension: \"\(.dimension)\"}"
+            '
 
-            yq -i '
-              .["start-pos"].x = (env(spawn_x) | tonumber) |
-              .["start-pos"].z = (env(spawn_z) | tonumber)
-            ' ./config/bluemap/maps/world.conf
+            for file in ./config/bluemap/maps/*.conf; do
+              # shellcheck disable=SC2016
+              yq -i '
+                env(spawn) as $spawn |
+                (select(.dimension == $spawn.dimension) | .start-pos) = {
+                  "x": $spawn.pos[0],
+                  "z": $spawn.pos[2]
+                }
+              ' "$file"
+            done
           '';
 
           wantedBy = [ "multi-user.target" ];
