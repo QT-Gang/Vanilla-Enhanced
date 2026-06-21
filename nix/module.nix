@@ -162,6 +162,35 @@ in
 
           wantedBy = [ "multi-user.target" ];
         };
+
+        "${minecraft-server-name}-post-start" = {
+          after = [ "${minecraft-server-service-name}.service" ];
+          requires = [ "${minecraft-server-service-name}.service" ];
+
+          serviceConfig.Type = "oneshot";
+
+          path = [
+            pkgs.python313Packages.nbtlib
+            pkgs.yq-go
+          ];
+          serviceConfig.WorkingDirectory = minecraft-server-workdir;
+
+          script = ''
+            ${waitForMinecraftScript}
+
+            readarray -t spawn < <(nbt -r ./world/level.dat --path "Data.spawn.pos[]")
+            export spawn_x="''${spawn[0]}"
+            export spawn_z="''${spawn[2]}"
+            echo "World Spawn: ''${spawn[@]}"
+
+            yq -i '
+              .["start-pos"].x = (env(spawn_x) | tonumber) |
+              .["start-pos"].z = (env(spawn_z) | tonumber)
+            ' ./config/bluemap/maps/world.conf
+          '';
+
+          wantedBy = [ "multi-user.target" ];
+        };
       };
 
     # required for nginx to have access to the webroot
