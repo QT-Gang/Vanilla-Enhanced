@@ -24,7 +24,17 @@ let
   fabricVersion = modpack.passthru.versions.fabric;
   serverVersion = lib.replaceStrings [ "." ] [ "_" ] "fabric-${mcVersion}";
 
-  minecraft-server-name = "vanillaqt";
+  sanitize =
+    str:
+    let
+      result = builtins.replaceStrings [ " " ] [ "-" ] str;
+    in
+    if builtins.match "[a-zA-Z_][a-zA-Z0-9_'-]*" result != null then
+      result
+    else
+      throw "Invalid string after sanitization: ${result}";
+
+  minecraft-server-name = lib.toLower (sanitize modpack.passthru.name);
   minecraft-server-service-name = "minecraft-server-${minecraft-server-name}";
   minecraft-server-service = config.systemd.services.${minecraft-server-service-name};
   minecraft-server-workdir = minecraft-server-service.serviceConfig.WorkingDirectory;
