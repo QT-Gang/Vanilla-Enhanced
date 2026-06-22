@@ -77,7 +77,7 @@
       formatter.${system} = pkgs.nixfmt-tree;
 
       nixosModules = {
-        vanillaQT = import ./nix/module.nix { inherit inputs self system; };
+        vanillaQT = import ./nix/module { inherit inputs self system; };
         vm = import ./nix/vm.nix { inherit self; };
         default = self.nixosModules.vanillaQT;
       };
