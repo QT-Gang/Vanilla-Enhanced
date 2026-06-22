@@ -584,6 +584,11 @@ hash = "3db1b61528d0fdd908f1fe57685bbc49cdbe496bfe0e349a0280334444193c73"
 metafile = true
 
 [[files]]
+file = "mods/no-enderman-grief.pw.toml"
+hash = "1cffe8491a6bf9848b28b72966342edab2047faa7767fe31c25b497adbb9202a"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "0f1192a7e40192261310314d9fc2d584c701245dd29698ea1a674b3b676e9abd"
 metafile = true
