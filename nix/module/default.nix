@@ -43,7 +43,7 @@ let
   hostname = "minecraft.mathiassven.com";
 
   cfg = config.${minecraft-server-name};
-  inherit (lib) mkIf mkEnableOption;
+  inherit (lib) mkIf mkEnableOption getExe;
 in
 
 {
@@ -118,6 +118,8 @@ in
 
     systemd.services =
       let
+        scripts = pkgs.callPackage ./scripts.nix { };
+
         waitForMinecraftScript = ''
           echo "Waiting for Minecraft readiness"
           until grep -q "Done (" "${minecraft-server-workdir}/logs/latest.log"; do
@@ -188,23 +190,14 @@ in
           script = ''
             ${waitForMinecraftScript}
 
-            spawn="$(nbt -r ./world/level.dat --path "Data.spawn" --json)"
-            export spawn
-            yq -n '
-              env(spawn) |
-              "World Spawn: {x: \(.pos[0]), z: \(.pos[2]), dimension: \"\(.dimension)\"}"
-            '
+            ${getExe scripts.bluemap-worldspawn}
+            ${writeToServerConsoleScript [
+              "/bluemap reload light"
+            ]}
 
-            for file in ./config/bluemap/maps/*.conf; do
-              # shellcheck disable=SC2016
-              yq -i '
-                env(spawn) as $spawn |
-                (select(.dimension == $spawn.dimension) | .start-pos) = {
-                  "x": $spawn.pos[0],
-                  "z": $spawn.pos[2]
-                }
-              ' "$file"
-            done
+            ${getExe scripts.bluemap-html-patch} \
+              -i ./bluemap/web/index.html \
+              --set './/meta[@name="og:title"]' 'content' "${modpack.passthru.name} BlueMap"
           '';
 
           wantedBy = [ "multi-user.target" ];
