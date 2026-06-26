@@ -140,7 +140,7 @@ in
       {
         "${minecraft-server-name}-init" = {
           after = [ "${minecraft-server-service-name}.service" ];
-          requires = [ "${minecraft-server-service-name}.service" ];
+          bindsTo = [ "${minecraft-server-service-name}.service" ];
 
           unitConfig.ConditionPathExists = "!${minecraft-server-workdir}/.initialized";
 
@@ -173,12 +173,12 @@ in
             touch "${minecraft-server-workdir}/.initialized";
           '';
 
-          wantedBy = [ "multi-user.target" ];
+          wantedBy = [ "${minecraft-server-service-name}.service" ];
         };
 
         "${minecraft-server-name}-post-start" = {
           after = [ "${minecraft-server-service-name}.service" ];
-          requires = [ "${minecraft-server-service-name}.service" ];
+          bindsTo = [ "${minecraft-server-service-name}.service" ];
 
           serviceConfig.Type = "oneshot";
 
@@ -201,7 +201,7 @@ in
               --set './/meta[@name="og:title"]' 'content' "${modpack.passthru.name} BlueMap"
           '';
 
-          wantedBy = [ "multi-user.target" ];
+          wantedBy = [ "${minecraft-server-service-name}.service" ];
         };
       };
 
