@@ -147,7 +147,11 @@ in
             RefuseManualStart = true;
           };
 
-          serviceConfig.Type = "oneshot";
+          serviceConfig = {
+            Type = "oneshot";
+            User = config.services.minecraft-servers.user;
+            Group = config.services.minecraft-servers.group;
+          };
 
           script = ''
             ${waitForMinecraftScript}
@@ -185,13 +189,17 @@ in
 
           unitConfig.RefuseManualStart = true;
 
-          serviceConfig.Type = "oneshot";
-
           path = [
             pkgs.python313Packages.nbtlib
             pkgs.yq-go
           ];
-          serviceConfig.WorkingDirectory = minecraft-server-workdir;
+
+          serviceConfig = {
+            Type = "oneshot";
+            User = config.services.minecraft-servers.user;
+            Group = config.services.minecraft-servers.group;
+            WorkingDirectory = minecraft-server-workdir;
+          };
 
           script = ''
             ${waitForMinecraftScript}
