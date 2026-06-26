@@ -211,7 +211,7 @@ in
       };
 
     # required for nginx to have access to the webroot
-    users.users.nginx.extraGroups = [ "minecraft" ];
+    users.users.nginx.extraGroups = [ config.services.minecraft-servers.group ];
 
     services.nginx = {
       enable = mkIf cfg.dev true;
