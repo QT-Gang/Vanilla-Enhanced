@@ -639,6 +639,11 @@ hash = "dccef77d20a5fae24e760b8a012d6833314851cc4512e30d5988e99e45700b77"
 metafile = true
 
 [[files]]
+file = "mods/villager-converting.pw.toml"
+hash = "fa0da7412b45899dbb8c7209aa592cdd62b92a5fba5f410ebd0dc5c9b4e7f062"
+metafile = true
+
+[[files]]
 file = "mods/visual-keymap.pw.toml"
 hash = "34aaad24543ce13a0bc938c8ef0e45b6355dbdf9dc0c36a707d0d2f9185df011"
 metafile = true
