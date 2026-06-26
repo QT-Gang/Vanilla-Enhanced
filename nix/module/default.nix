@@ -142,7 +142,10 @@ in
           after = [ "${minecraft-server-service-name}.service" ];
           bindsTo = [ "${minecraft-server-service-name}.service" ];
 
-          unitConfig.ConditionPathExists = "!${minecraft-server-workdir}/.initialized";
+          unitConfig = {
+            ConditionPathExists = "!${minecraft-server-workdir}/.initialized";
+            RefuseManualStart = true;
+          };
 
           serviceConfig.Type = "oneshot";
 
@@ -179,6 +182,8 @@ in
         "${minecraft-server-name}-post-start" = {
           after = [ "${minecraft-server-service-name}.service" ];
           bindsTo = [ "${minecraft-server-service-name}.service" ];
+
+          unitConfig.RefuseManualStart = true;
 
           serviceConfig.Type = "oneshot";
 
