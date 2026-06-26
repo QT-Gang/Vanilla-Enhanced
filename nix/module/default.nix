@@ -167,6 +167,7 @@ in
               "/backup set shutdown-action full-gc"
               "/backup set restore-directory fastback_restore"
               "/gamerule playersSleepingPercentage 50"
+              "/gamerule elytra_movement_check false"
             ]}
 
             touch "${minecraft-server-workdir}/.initialized";
