@@ -379,6 +379,10 @@ file = "config/sodium-options.json"
 hash = "34fc717398de751ce39263c5c9232d97ca45c4959cf83bc069d78c2ed137d401"
 
 [[files]]
+file = "config/spark/config.json"
+hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
 file = "config/transition.json"
 hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
 
@@ -556,7 +560,7 @@ metafile = true
 
 [[files]]
 file = "mods/luckperms/defaultperms.json.gz"
-hash = "6511ade42b5d64cc51cbf2364c6c699bf9a991d9c4e8dc8dbd4dcd4bd90cb7ba"
+hash = "bc527d352a8637111537e916b977188560721b658506ce5201e8900dd31f1d18"
 
 [[files]]
 file = "mods/melody.pw.toml"
@@ -621,6 +625,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "2e6f00e2997c2176c1454a8bf448b4b000c495cbb15cf5c401a3daee80e4355c"
 metafile = true
 
 [[files]]
