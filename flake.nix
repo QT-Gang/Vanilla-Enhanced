@@ -71,6 +71,9 @@
           shellHook = ''
             source ${./nix/shell/packwiz-server.bash}
             shopt -u checkjobs
+
+            git config --local diff.jsongz.textconv \
+              'sh -c "gzip -dc \"$1\" | yq -oj -M \"sort_keys(..)\""'
           '';
         };
 
